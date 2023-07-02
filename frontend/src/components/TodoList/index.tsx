@@ -35,7 +35,7 @@ export const TodoList = ({ todos }: TodoList) => {
             УПС... Похоже у вас нет дел. Не пора ли чем-то заняться.
           </p>
         ) : (
-          <div className={styles.taskList}>
+          <div className={styles.todoList}>
             <ControlPanel />
             {filtredTodos.length ? (
               filtredTodos.map((todo) => <TodoItem key={todo.id} todo={todo} />)
@@ -48,7 +48,7 @@ export const TodoList = ({ todos }: TodoList) => {
           </div>
         )
       ) : (
-        <div className={styles.taskList}>{skeletons}</div>
+        <div className={styles.todoList}>{skeletons}</div>
       )}
     </div>
   );

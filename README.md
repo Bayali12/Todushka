@@ -2,10 +2,11 @@
 
 # Demo: https://todushka-app.netlify.app/
 
-# Стек технологий
-- Язык программирования: TS/JS
-- Стейт менеджер: Redux
+# Technology stack
+- Programming language: TS/JS
+- State manager: Redux
 - Frontend: React
 - Backend: Nodejs/Express
+- DB: mongoDB
 - API: REST API
-- Стили: scss modules
+- Styles: scss modules

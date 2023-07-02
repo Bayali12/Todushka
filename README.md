@@ -1,4 +1,4 @@
-Todushka - FULLSTACK TODO APP
+#Todushka - FULLSTACK TODO APP
 
 # Стек технологий
 - Язык программирования: TS/JS

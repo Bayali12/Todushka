@@ -1,0 +1,32 @@
+.skeleton {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .strip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(235, 235, 235, 1) 0%,
+      rgba(240, 240, 240, 1) 49%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    animation: running-strip 1.5s linear infinite; /* Анимация полосы */
+  }
+}
+
+@keyframes running-strip {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

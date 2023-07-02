@@ -1,0 +1,16 @@
+@use '../../styles/variables.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: variables.$ellowPrimary;
+  padding: 0 35px;
+}
+
+.title {
+  padding-left: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  color: variables.$white;
+}

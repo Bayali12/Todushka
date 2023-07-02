@@ -1,0 +1,37 @@
+@use '../../styles/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+
+  .title {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .emptyList {
+    font-size: 24px;
+    margin: 0 auto;
+    color: rgb(180, 179, 179);
+    text-align: center;
+
+    .smile {
+      display: block;
+      font-size: 40px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .taskList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .skeletonWrapper {
+      height: 40px;
+      width: 100%;
+    }
+  }
+}

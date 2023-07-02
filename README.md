@@ -1,4 +1,6 @@
-# Todushka - FULLSTACK TODO APP
+# Todushka - FULLSTACK TODO APP (CRUD APP)
+
+# Demo:
 
 # Стек технологий
 - Язык программирования: TS/JS
